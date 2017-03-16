@@ -1,0 +1,43 @@
+/* Middle
+-----------------------------------------------------------------------------*/
+.middle {
+	border-left: 250px solid #B5E3FF;
+	border-right: 250px solid #FFACAA;
+	position: relative;
+}
+.middle:after {
+	display: table;
+	clear: both;
+	content: '';
+}
+.container {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	margin-right: -100%;
+}
+.content {
+	padding: 0 20px;
+}
+
+
+/* Left Sidebar
+-----------------------------------------------------------------------------*/
+.left-sidebar {
+	float: left;
+	width: 250px;
+	position: relative;
+	background: #B5E3FF;
+	left: -250px;
+}
+
+
+/* Right Sidebar
+-----------------------------------------------------------------------------*/
+.right-sidebar {
+	float: right;
+	margin-right: -250px;
+	width: 250px;
+	position: relative;
+	background: #FFACAA;
+}
