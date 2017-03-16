@@ -22,7 +22,7 @@ function imageSlider($city) {
     "jaipur" => 0,
     "haridwar" => 0
     );
-    $siteDir = "sites";
+    $siteDir = "images/sites";
     $DelhiCounter = 4;
     
     $files1 = scandir ( $siteDir );

@@ -25,7 +25,7 @@ function imageSlider($city) {
     "jaipur" => 0,
     "haridwar" => 0
     );
-    $siteDir = "sites";
+    $siteDir = "images/sites";
     $DelhiCounter = 4;
     
     $files1 = scandir ( $siteDir );
@@ -63,7 +63,7 @@ function imageSlider($city) {
         } else {
             print '<div class="item">';
         }
-        print "<img src=\"sites/$city$i.jpg\" class=\"img-responsive\" style=\"width: 100%;height:350px\" alt=\"\"\n>
+        print "<img src=\"images/sites/$city$i.jpg\" class=\"img-responsive\" style=\"width: 100%;height:350px\" alt=\"\"\n>
         </div>";
     }
     print '</div>';
